@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Nova Creative — Freelance Web Designer Portfolio" />
+    <link rel="icon" href="images/icons/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/main.js" defer></script>
+
+    <title>Nova Creative — Web Designer</title>
+  </head>
+  <body>
+    <header class="site-header" data-component="header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Nova<span>Creative</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-controls="site-nav" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a class="btn" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme-toggle" aria-label="Toggle theme" title="Toggle theme">🌓</button>
+  </div>
+</header>
+
+    <main id="main">
+      <section class="hero container">
+        <div class="hero-text">
+          <h1>Websites that feel fast, look sharp, and convert.</h1>
+          <p>I design and build responsive, accessible sites for startups and small businesses.</p>
+          <div class="cta">
+            <a class="btn" href="/work.html">View Work</a>
+            <a class="btn btn-outline" href="contact.html">Start a Project</a>
+          </div>
+        </div>
+        <div class="hero-media reveal">
+          <img src="images/hero-illustration.svg" alt="Abstract website mockup" width="520" height="360" loading="eager">
+        </div>
+      </section>
+
+      <section class="container featured">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="grid cards">
+          <article class="card reveal" data-tags="ecommerce ui">
+            <img src="images/projects/project-1.jpg" alt="E-commerce redesign" width="640" height="420" loading="lazy">
+            <h3>Shoply — E‑commerce Redesign</h3>
+            <p>Modernized storefront with improved UX and conversion-driven design.</p>
+            <div class="actions">
+              <a class="btn btn-small" href="#">Live</a>
+              <a class="btn btn-small btn-outline" href="#">Code</a>
+            </div>
+          </article>
+          <article class="card reveal" data-tags="saas dashboard">
+            <img src="images/projects/project-2.jpg" alt="SaaS dashboard UI" width="640" height="420" loading="lazy">
+            <h3>Pulse — Analytics Dashboard</h3>
+            <p>Accessible data visualization and fluid layout for a SaaS product.</p>
+            <div class="actions">
+              <a class="btn btn-small" href="#">Live</a>
+              <a class="btn btn-small btn-outline" href="#">Code</a>
+            </div>
+          </article>
+          <article class="card reveal" data-tags="marketing landing">
+            <img src="images/projects/project-3.jpg" alt="Marketing landing page" width="640" height="420" loading="lazy">
+            <h3>Orbit — Marketing Landing Page</h3>
+            <p>High-performance landing built to test messaging and boost signups.</p>
+            <div class="actions">
+              <a class="btn btn-small" href="#">Live</a>
+              <a class="btn btn-small btn-outline" href="#">Code</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container process">
+        <h2 class="section-title">How We Work</h2>
+        <ol class="steps">
+          <li class="reveal"><h3>Discover</h3><p>Goals, audience, and scope.</p></li>
+          <li class="reveal"><h3>Design</h3><p>Wireframes, UI, content.</p></li>
+          <li class="reveal"><h3>Build</h3><p>Responsive, accessible, fast.</p></li>
+          <li class="reveal"><h3>Launch</h3><p>Deploy, measure, iterate.</p></li>
+        </ol>
+      </section>
+    </main>
+    <footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">Nova<span>Creative</span></a>
+      <p>Modern, accessible websites for bold brands.</p>
+    </div>
+    <nav aria-label="Footer">
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <ul class="social">
+      <li><a href="#" aria-label="GitHub">GitHub</a></li>
+      <li><a href="#" aria-label="LinkedIn">LinkedIn</a></li>
+      <li><a href="mailto:hello@example.com">Email</a></li>
+    </ul>
+  </div>
+  <div class="container legal">
+    <small>© <span id="year"></span> Nova Creative. All rights reserved.</small>
+  </div>
+</footer>
+
+  </body>
+</html>
